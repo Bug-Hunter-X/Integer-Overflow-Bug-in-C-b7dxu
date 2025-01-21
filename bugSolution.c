@@ -1,0 +1,1 @@
+#include <stdio.h> #include <limits.h> int main() { int x = 10; int *ptr = &x; //check for potential overflow before assignment if (x + 10 > INT_MAX){ printf("Integer overflow detected!"); return 1; } *ptr = x + 10; printf("%d\n", x); return 0; }
