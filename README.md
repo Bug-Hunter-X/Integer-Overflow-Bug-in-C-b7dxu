@@ -1,0 +1,1 @@
+# Integer Overflow Bug in C This code snippet demonstrates a common integer overflow bug that can occur in C if an integer variable is incremented or manipulated to exceed its maximum value. This can lead to unpredictable behavior in the program and even potential security vulnerabilities. The bugSolution.c file shows how to mitigate this type of bug.
